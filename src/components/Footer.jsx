@@ -18,11 +18,15 @@ const Footer = () => {
           accusantium.
         </p>
         <div className="flex justify-between md:w-[75%] my-6">
-          <FaFacebookSquare size={30} />
-          <FaInstagram size={30} />
-          <FaTwitterSquare size={30} />
-          <FaGithubSquare size={30} />
-          <FaDribbbleSquare size={30} />
+          <a href="https://www.facebook.com/ali.pourhassan.90/">
+            <FaFacebookSquare size={30} />
+          </a>
+          <a href="https://www.instagram.com/ali_samsun2021/">
+            <FaInstagram size={30} />
+          </a>
+          <a href="https://github.com/aliph55">
+            <FaGithubSquare size={30} />
+          </a>
         </div>
       </div>
       <div className="lg:col-span-2 flex justify-between mt-6">
